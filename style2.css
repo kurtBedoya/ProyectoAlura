@@ -1,0 +1,37 @@
+#input1 {
+
+    border: none;
+    background-color: aliceblue;
+    font-size: xx-largE;
+    font-family: Arial;
+    color: darkblue;
+}
+
+
+#input2 {
+
+    font-size: xx-largE;
+    font-family: Arial;
+    color: darkblue;
+    border: none;
+
+}
+
+#button3 {
+
+    background-color: #D8DFE8;
+    color: darkblue;
+    border-radius: 20px;
+    height: 67px;
+    width: 328px;
+    font-family: arial;
+    font-style: normal;
+
+
+}
+
+#button3:active {
+
+    background-color: white;
+    font-weight: bold ;
+}

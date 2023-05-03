@@ -1,0 +1,111 @@
+.logo{
+
+    height: 70px;
+    width: 70px;
+    padding: 30%;
+    display: inline;
+    padding-top: 40px;
+    padding-left: 84px;
+   
+    }
+
+body {
+
+
+    width: 940px;
+    background-color:aliceblue;
+    display: flex;
+
+}
+
+.contenedor1    {
+
+    padding: 3%;
+    display: inline-block;
+    padding-top: 168px;
+    padding-left: 124px;
+
+}
+
+.contenedor2    {
+
+    padding: 5%;
+    display: inline-block;
+    padding-top: 30px;
+   
+}
+
+
+.advertencia{
+
+    font-family: Arial;
+    color: #495057;
+    display: inline-block;
+}
+
+.icono{
+
+    height: 10px;
+    width: 10px;
+    
+}
+
+.button1{
+
+    background-color: #0A3871;
+    color: ghostwhite;
+    border-radius: 20px;
+    height: 67px;
+    width: 328px;
+    font-family: arial;
+    border: darkblue;
+    font-style: normal;
+    
+}
+
+.button1:active{
+
+    background-color: black;
+    font-weight: bold ;
+}
+
+.button2{
+
+    background-color: #D8DFE8;
+    color: darkblue;
+    border-radius: 20px;
+    height: 67px;
+    width: 328px;
+    font-family: arial;
+    font-style: normal;
+    
+}
+
+.button2:active{
+
+    background-color: white;
+    font-weight: bold ;
+}
+
+.caja{
+
+    background-color: white;
+    border-radius: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    
+}
+
+.mensaje {
+
+    height: 710px;
+    padding-top: 50px;
+    font-size: xx-largE;
+    font-family: Arial;
+    color: darkblue;
+
+}
+
+
+

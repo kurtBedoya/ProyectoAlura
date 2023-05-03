@@ -7,11 +7,13 @@
 <script>
 
 	var str = document.querySelector("#input1");
+
 	
 	function encriptar() {
 
-		var arr = Array.from(str.value);
 		var palabra = "";
+		var arr = Array.from(str.value);
+		
 		for(var posicion = 0; posicion < arr.length; posicion++){
 		
 			if ("a" == arr[posicion] ) {
@@ -106,7 +108,7 @@
 
 		var newArr = [];
 		
-		for(var i = 0; i < arr.length; i++){
+		for(var i = 0; i <= arr.length; i++){
 
 			//console.log(array[i])
 
