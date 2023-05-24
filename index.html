@@ -5,8 +5,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Encriptador</title>
         <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="style2.css">
-        <link rel="javascript" href="logica.js">
     </head>
 </html>
 <body>
@@ -14,12 +12,12 @@
             <img class ="logo" src="img/image.png" >            
     </nav>
     <div class="contenedor1">
-        <textarea id="input1" cols="40" rows="15">Ingrese el texto aquí</textarea>
+        <textarea id="input1">Ingrese el texto aquí</textarea>
         <br>
         <img class="icono" src="img/advertencia.png">
         <h6 class="advertencia">solo letras minusculas y sin acentos</h6>
         <br>
-            <div>
+            <div class="botones">
                 <button class="button1">Encriptar</button>
                 <button class="button2">Desencriptar</button>
             </div>
@@ -27,9 +25,20 @@
     <div class="contenedor2">
         <div class="caja">
             <div class="mensaje">
-                <textarea cols="19" rows="15" id="input2"></textarea>
+                <textarea id="input2"></textarea>
+                <div id="informacion">
+                    <div class="figura">
+                        <img class="img" src="img/Muñeco.png">
+                    </div>
+                    <div class="mensajes">
+                        <p class="noEncontrado">Ningun mensaje encontrado</p>
+                        <p class="ingrese">Ingresa el texto que desees encriptar o desencriptar.</p>
+                    </div>
+                </div>
             </div>
-            <button  id="button3">copiar</button>
+            <div class="copiar">
+                <button  id="button3">copiar</button>
+            </div>
         </div>
     </div>
     <script src="logica.js"></script>

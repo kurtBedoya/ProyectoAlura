@@ -1,75 +1,72 @@
-.logo{
-
-    height: 70px;
-    width: 70px;
-    padding: 30%;
-    display: inline;
-    padding-top: 40px;
-    padding-left: 84px;
-   
-    }
-
 body {
 
-
-    width: 940px;
+    width: auto;
     background-color:aliceblue;
-    display: flex;
-
 }
 
-.contenedor1    {
+nav {
+
+    display: inline-block;
+}
+
+.logo {
+    
+    height: 70px;
+    width: 70px;
+}
+
+.contenedor1 {
 
     padding: 3%;
     display: inline-block;
     padding-top: 168px;
-    padding-left: 124px;
-
+    width: 100%;
 }
 
-.contenedor2    {
+.contenedor2 {
 
     padding: 5%;
     display: inline-block;
     padding-top: 30px;
-   
+    width: 100%;
 }
 
-
-.advertencia{
+.advertencia {
 
     font-family: Arial;
     color: #495057;
     display: inline-block;
-}
-
-.icono{
-
-    height: 10px;
-    width: 10px;
+    margin: 10px 0;
     
 }
 
-.button1{
+.icono {
+
+    height: 10px;
+    width: 10px;
+    padding-left: 12px;
+}
+
+.button1 {
 
     background-color: #0A3871;
     color: ghostwhite;
     border-radius: 20px;
     height: 67px;
-    width: 328px;
     font-family: arial;
     border: darkblue;
     font-style: normal;
-    
+    display: inline;
+    text-align: center;
 }
 
-.button1:active{
+.button1:active {
 
     background-color: black;
     font-weight: bold ;
 }
 
-.button2{
+.button2 {
 
     background-color: #D8DFE8;
     color: darkblue;
@@ -78,34 +75,336 @@ body {
     width: 328px;
     font-family: arial;
     font-style: normal;
-    
+    display: inline;
+    text-align: center;
 }
 
-.button2:active{
+.button2:active {
 
     background-color: white;
     font-weight: bold ;
 }
 
-.caja{
+.caja {
 
     background-color: white;
-    border-radius: 20px;
+    border-radius: 25px;
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 50px;
-    
+    box-shadow: 6px 20px 10px #cccccc;
 }
 
 .mensaje {
 
-    height: 710px;
     padding-top: 50px;
     font-size: xx-largE;
     font-family: Arial;
     color: darkblue;
+}
+
+#input1 {
+
+    border: none;
+    background-color: aliceblue;
+    font-size: xx-largE;
+    font-family: Arial;
+    color: darkblue;
+    
 
 }
+
+#input2 {
+
+    font-size: xx-largE;
+    font-family: Arial;
+    color: darkblue;
+    border: none;
+    width: 100%;
+            
+}
+
+#button3 {
+
+    background-color: #D8DFE8;
+    color: darkblue;
+    border-radius: 20px;
+    font-family: arial;
+    font-style: normal;
+    
+}
+
+
+#button3:active {
+
+    background-color: white;
+    font-weight: bold ;
+}
+
+.noEncontrado {
+
+    font-family: Arial;
+    font-style: bold;
+    font-size: 24px;
+    text-align: center;
+    vertical-align: top;
+    color: black;
+
+}
+
+.ingrese {
+
+    font-family: Arial;
+    font-size: 16px;
+    text-align: center;
+    vertical-align: top;
+    color: black;
+
+
+}
+
+.figura {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.copiar{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media screen and (min-width: 769px ){
+
+    nav {
+
+        display: inline;
+        padding-left: 30px;
+        padding-top: 10px;
+    }
+
+    body {
+
+        display: flex;
+    }
+
+    .contenedor1    {
+
+        padding-top: 168px;
+    }
+
+    .botones{
+
+        display: flex;
+    }
+
+    #input1 {
+       
+        height: 550px;
+        width: 100%;
+    }
+
+    #button3 {
+ 
+        height: 67px;
+        width: 280px;
+        position: relative;
+        top: 290px;
+    }
+
+    .mensaje {
+
+        height: 50%;
+    }
+    
+    .button1{
+
+        width: 280px;;
+        margin: 0px 2px;
+        
+    }
+
+    .button2{
+
+        width: 280px;;
+        margin: 0px 2px;
+        
+    }
+
+    .caja {
+
+        height: 100%;
+    }
+
+    #input2 {
+
+        height: 150%;
+    }
+
+    #informacion {
+
+        width: 100%;
+        height: 100%;
+        padding-top: 30%;
+    }
+}
+    
+@media screen and (max-width: 768px) and (min-width: 390px) {
+
+    nav {
+
+        padding-left: 10px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    } 
+
+    .contenedor1 {
+
+        padding-top: 10px;
+        position: relative;
+    }
+
+    #input1 {
+       
+        height: 400px;
+        width: auto;
+    }
+
+    .mensaje {
+
+        height: 310px;
+        display: inline-block;
+    }
+
+    .button1{
+        
+        margin: 0 0 0 12px; 
+        width: 50%;
+    }
+        
+    .button2{
+
+        margin: 0 0 0 5px;    
+        width: 50%;
+    }
+
+    #button3 {
+ 
+        height: 67px;
+        width: 280px;
+        position: relative;
+    }
+
+    .img {
+
+        display: none;
+    }
+
+    .mensaje {
+
+        width: 100%;
+        
+    }
+
+    #informacion {
+
+        width: 100%;
+        height: 100%;
+        padding-top: 15%;
+    }
+
+    #input2 {
+
+        height: 400px;
+    }
+
+    .botones{
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 390px){
+
+    nav {
+
+        padding-left: 10px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    } 
+
+    .contenedor1 {
+
+        padding-top: 10px;
+        position: relative;
+    }
+
+    #input1 {
+       
+        height: 400px;
+        width: auto;
+    }
+
+    .mensaje {
+
+        height: 310px;
+        display: inline-block;
+    }
+
+    .button1{
+        
+        margin: 2px 0; 
+        width: 100%;
+    }
+        
+    .button2{
+
+        margin: 2px 0;    
+        width: 100%;
+    }
+
+    #button3 {
+ 
+        height: 67px;
+        width: 100%;
+        position: relative;
+    }
+
+    .img {
+
+        display: none;
+    }
+
+    .mensaje {
+
+        width: 100%;
+        
+    }
+
+    #informacion {
+
+        width: 100%;
+        height: 100%;
+        padding-top: 15%;
+    }
+
+    #input2 {
+
+        height: 400px;
+    }
+
+
+}
+    
+
+
+
 
 
 
